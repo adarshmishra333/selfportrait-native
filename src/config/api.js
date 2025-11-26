@@ -1,5 +1,5 @@
 // Backend URL - Update this when deploying
-export const BACKEND_URL = "http://localhost:5174";
+export const BACKEND_URL = "https://selfportrait-backend.onrender.com";
 
 // For Android emulator, use:
 // export const BACKEND_URL = "http://10.0.2.2:5174";
