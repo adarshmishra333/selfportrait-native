@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.selfportrait.app"
@@ -23,7 +25,9 @@
       },
       "package": "com.selfportrait.app"
     },
-    "extra": {}
+    "extra": {},
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
-
