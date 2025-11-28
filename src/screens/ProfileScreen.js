@@ -96,8 +96,13 @@ export default function ProfileScreen() {
           <Text style={{ fontSize: 24, fontWeight: '700', color: '#1F2937', marginBottom: 8 }}>
             Your Portrait
           </Text>
-        <Text style={{ fontSize: 15, color: '#6B7280', textAlign: 'center' }}>
-         A living reflection of you, update
-        </Text>
 
+          <Text style={{ fontSize: 15, color: '#6B7280', textAlign: 'center' }}>
+            A living reflection of you, update
+          </Text>
+        </View>
 
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
