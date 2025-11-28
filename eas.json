@@ -1,13 +1,20 @@
 {
+  "cli": {
+    "version": ">= 3.8.0"
+  },
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "resourceClass": "large",
+        "gradleCommand": ":app:assembleRelease"
       }
     },
     "production": {
       "android": {
-        "buildType": "app-bundle"
+        "buildType": "app-bundle",
+        "resourceClass": "large",
+        "gradleCommand": ":app:assembleRelease"
       }
     }
   }
