@@ -16,14 +16,16 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.selfportrait.app"
+      "bundleIdentifier": "com.selfportrait.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.selfportrait.app"
+      "package": "com.selfportrait.app",
+      "versionCode": 1
     },
     "extra": {
       "eas": {
@@ -31,7 +33,12 @@
       }
     },
     "plugins": [
-      "expo-font"
-    ]
+      "expo-font",
+      "expo-build-properties",
+      "expo-updates"
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
