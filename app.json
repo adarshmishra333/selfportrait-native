@@ -25,7 +25,11 @@
       },
       "package": "com.selfportrait.app"
     },
-    "extra": {  },
+    "extra": {
+      "eas": {
+        "projectId": "c4caf3cb-d907-41d3-83c0-55abdd9a33cc"
+      }
+    },
     "plugins": [
       "expo-font"
     ]
